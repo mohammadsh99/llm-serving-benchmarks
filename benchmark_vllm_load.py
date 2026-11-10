@@ -18,7 +18,7 @@ def send_request():
                     "content": "Explain what a REST API is in one sentence.",
                 }
             ],
-            "options": {"max_tokens": 60},
+            "max_tokens": 60,
             "stream": False,
         },
         timeout=180,
